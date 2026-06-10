@@ -8,7 +8,7 @@ categories: ai
 
 I've been thinking a lot about AI safety lately. I mean the kind of safety that tries to protect us from *ideas*. The kind that filters, censors, and sanitizes. The kind that, ironically, might be making AI *more* dangerous, not less.
 
-Every time we draw a line in the sand to keep AI "safe," we also limit its ability to help us think. And when thinking gets limited, we all get a little dumber.
+Every time we draw a line in the sand to keep AI "safe" we also limit its ability to help us think. And when thinking gets limited, we all get a little dumber.
 
 **The Misinformation Feedback Loop**.
 
