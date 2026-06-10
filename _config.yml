@@ -1,0 +1,36 @@
+title: Saturdays Pancakes
+author: Malvavisc0
+description: >-
+  Saturdays Pancakes is a personal blog about artificial intelligence,
+  technology, and the ideas at the edges — written by Malvavisc0.
+url: https://saturdayspancakes.de
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: minimalvavisco
+github_username:  malvavisc0
+
+theme_config:
+  date_format: "%Y-%m-%d"
+
+permalink: /:slug.html
+
+exclude:
+  - .jektex-cache
+
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+
+sass:
+  style: compressed
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jektex
+
+jektex:
+  cache_dir: ".jektex-cache"
+  ignore: ["*.xml"]
+  silent: false
+  macros:
+    - ["\\Q", "\\mathbb{Q}"]
+    - ["\\C", "\\mathbb{C}"]
