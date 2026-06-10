@@ -2,7 +2,7 @@
 layout: post
 title: "When AI Safety Backfires"
 description: "What if the rules we create to protect us from AI are the very things that make it dangerous?"
-date: 2026-01-04
+date: 2026-01-02
 categories: ai
 ---
 

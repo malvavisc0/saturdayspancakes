@@ -2,7 +2,7 @@
 layout: post
 title: "Labor, Identity, and the Biological Gift"
 description: "In a world racing toward bodily upgrades, what if keeping our 'born' selves is the most radical act of rebellion?"
-date: 2026-02-04
+date: 2026-02-06
 categories: ai
 ---
 
