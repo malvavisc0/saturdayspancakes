@@ -42,8 +42,10 @@ jobs:
         id: pages
         uses: actions/configure-pages@v6
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        # Outputs to the './_site' directory by default.
+        # Do NOT pass --baseurl here: we serve from a custom domain (CNAME),
+        # so baseurl must stay empty (as set in _config.yml).
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
