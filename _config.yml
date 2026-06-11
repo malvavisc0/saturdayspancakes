@@ -10,6 +10,8 @@ github_username:  malvavisc0
 
 theme_config:
   date_format: "%Y-%m-%d"
+  show_description: true
+  back_home_text: "← home"
 
 permalink: /post/:year/:month/:day/:slug.html
 

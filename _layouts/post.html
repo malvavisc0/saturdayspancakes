@@ -11,5 +11,24 @@ layout: default
   
   <h1>{{ page.title }}</h1>
 
+  {%- if page.description -%}
+    <p class="post-excerpt">{{ page.description }}</p>
+  {%- endif -%}
+
   {{ content }}
+
+  <nav class="post-nav">
+    {%- if page.previous.url -%}
+      <a class="post-nav-link post-nav-prev" href="{{ page.previous.url | relative_url }}">
+        <span class="post-nav-label">← previous</span>
+        <span class="post-nav-title">{{ page.previous.title }}</span>
+      </a>
+    {%- endif -%}
+    {%- if page.next.url -%}
+      <a class="post-nav-link post-nav-next" href="{{ page.next.url | relative_url }}">
+        <span class="post-nav-label">next →</span>
+        <span class="post-nav-title">{{ page.next.title }}</span>
+      </a>
+    {%- endif -%}
+  </nav>
 </article>
