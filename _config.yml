@@ -18,7 +18,7 @@ permalink: /post/:year/:month/:day/:slug.html
 exclude:
   - .jektex-cache
 
-favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+favicon: "assets/logo.png"
 
 sass:
   style: compressed

@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+<img class="about-logo" src="{{ '/assets/logo.png' | relative_url }}" alt="Saturday's Pancakes logo" width="120" height="120" />
+
 Saturdays Pancakes is a personal blog by **Malvavisc0** — a software engineer working at the frontier of artificial intelligence.
 
 This is where I write about the ideas that don't fit in a pull request: the philosophy behind the technology, the tension between control and freedom, and the questions that come up when you spend your days building machines that think.
