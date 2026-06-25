@@ -8,6 +8,16 @@
       </div>
     </main>
 
+    <footer class="site-footer">
+      <div class="w">
+        <p>
+          &copy; {{ site.time | date: "%Y" }} {{ site.author }} &middot;
+          <a href="{{ "/feed.xml" | relative_url }}">RSS</a> &middot;
+          built with <a href="https://jekyllrb.com">Jekyll</a>
+        </p>
+      </div>
+    </footer>
+
     {%-if site.goat_counter and jekyll.environment == "production"-%}
       {%-include goat_counter.html-%}
     {%-endif-%}
@@ -17,5 +27,27 @@
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
     {% endif %}
+
+    <script>
+      (function () {
+        document.querySelectorAll('div.highlighter-rouge').forEach(function (block) {
+          if (block.querySelector('.copy-btn')) return;
+          var btn = document.createElement('button');
+          btn.className = 'copy-btn';
+          btn.type = 'button';
+          btn.setAttribute('aria-label', 'Copy code');
+          btn.textContent = 'copy';
+          btn.addEventListener('click', function () {
+            var code = block.querySelector('code');
+            if (!code) return;
+            navigator.clipboard.writeText(code.innerText).then(function () {
+              btn.textContent = 'copied';
+              setTimeout(function () { btn.textContent = 'copy'; }, 1500);
+            });
+          });
+          block.appendChild(btn);
+        });
+      })();
+    </script>
   </body>
 </html>

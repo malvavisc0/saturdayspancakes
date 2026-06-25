@@ -5,5 +5,7 @@ entries:
       show_more: true
       show_more_text: See archive...
       show_more_url: /archive.html
+  - title: tags
+    url: /tags.html
   - title: about
     url: /about.html

@@ -7,6 +7,13 @@ layout: default
 <article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+    {%- if page.tags.size > 0 -%}
+      <span class="post-tags">
+        {%- for tag in page.tags -%}
+          <a class="post-tag" href="{{ "/tags.html" | relative_url }}#tag-{{ tag | slugify }}">{{ tag }}</a>
+        {%- endfor -%}
+      </span>
+    {%- endif -%}
   </p>
   
   <h1>{{ page.title }}</h1>
@@ -15,7 +22,16 @@ layout: default
     <p class="post-excerpt">{{ page.description }}</p>
   {%- endif -%}
 
-  {{ content }}
+  {%- if page.toc -%}
+    <nav class="toc" aria-label="Table of contents">
+      <h2 class="toc-title">Contents</h2>
+      {{ content | toc_only }}
+    </nav>
+  {%- endif -%}
+
+  <div class="post-body">
+    {{ content }}
+  </div>
 
   <nav class="post-nav">
     {%- if page.previous.url -%}

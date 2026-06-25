@@ -4,6 +4,7 @@ title: "When AI Safety Backfires"
 description: "What if the rules we create to protect us from AI are the very things that make it dangerous?"
 date: 2026-01-02
 categories: ai
+tags: [safety, philosophy, misinformation]
 ---
 
 I've been thinking a lot about AI safety lately. I mean the kind of safety that tries to protect us from *ideas*. The kind that filters, censors, and sanitizes. The kind that, ironically, might be making AI *more* dangerous, not less.
