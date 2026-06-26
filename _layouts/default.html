@@ -31,21 +31,38 @@
     <script>
       (function () {
         document.querySelectorAll('div.highlighter-rouge').forEach(function (block) {
-          if (block.querySelector('.copy-btn')) return;
-          var btn = document.createElement('button');
-          btn.className = 'copy-btn';
-          btn.type = 'button';
-          btn.setAttribute('aria-label', 'Copy code');
-          btn.textContent = 'copy';
-          btn.addEventListener('click', function () {
-            var code = block.querySelector('code');
-            if (!code) return;
-            navigator.clipboard.writeText(code.innerText).then(function () {
-              btn.textContent = 'copied';
-              setTimeout(function () { btn.textContent = 'copy'; }, 1500);
+          // inject language label from the wrapper class (e.g. "language-yaml")
+          if (!block.querySelector('.lang-label')) {
+            var lang = null;
+            block.classList.forEach(function (cls) {
+              if (cls.indexOf('language-') === 0) {
+                lang = cls.replace('language-', '');
+              }
             });
-          });
-          block.appendChild(btn);
+            if (lang) {
+              var label = document.createElement('span');
+              label.className = 'lang-label';
+              label.textContent = lang;
+              block.appendChild(label);
+            }
+          }
+          // inject copy button
+          if (!block.querySelector('.copy-btn')) {
+            var btn = document.createElement('button');
+            btn.className = 'copy-btn';
+            btn.type = 'button';
+            btn.setAttribute('aria-label', 'Copy code');
+            btn.textContent = 'copy';
+            btn.addEventListener('click', function () {
+              var code = block.querySelector('code');
+              if (!code) return;
+              navigator.clipboard.writeText(code.innerText).then(function () {
+                btn.textContent = 'copied';
+                setTimeout(function () { btn.textContent = 'copy'; }, 1500);
+              });
+            });
+            block.appendChild(btn);
+          }
         });
       })();
     </script>
