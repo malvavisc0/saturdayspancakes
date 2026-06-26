@@ -11,7 +11,7 @@ I've been thinking a lot about AI safety lately. I mean the kind of safety that 
 
 Every time we draw a line in the sand to keep AI "safe" we also limit its ability to help us think. And when thinking gets limited, we all get a little dumber.
 
-**The Misinformation Feedback Loop**.
+## The Misinformation Feedback Loop
 
 The thing is that misinformation very often comes from *good intentions*.
 
@@ -21,7 +21,7 @@ AI safety works the same way. When we scrub "harmful" content from the conversat
 
 Worse, we strip away the *messy* parts, the parts that help us understand *why* something is harmful in the first place. Without that context, even well-meaning people end up sharing half-truths because they're *missing the full picture*.
 
-**The Sterility Problem**.
+## The Sterility Problem
 
 Safe AI is *boring*. It's the equivalent of a museum where every painting is a landscape, every book is a manual, and every conversation is a corporate HR training. No edges. No controversy. No *life*.
 
@@ -33,7 +33,7 @@ This **intellectual sterilization** offers no security.
 
 True exploration requires *risk* that makes you question what you believe. When we remove that risk, we make AI *useless*.
 
-**The Recursive Trap**.
+## The Recursive Trap
 
 Here’s where it gets really weird.
 
@@ -43,7 +43,7 @@ Think of it like a dam. You build it to control the water, but over time, the pr
 
 We end up with a system that's *brittle* and it is *too* rigid. It can't bend. It can't learn. It can’t *grow*.
 
-**The Real Constraint isn't AI**.
+## The Real Constraint isn't AI
 
 We keep acting like the problem is the AI. It's not.
 
@@ -51,7 +51,7 @@ The problem is *our* definition of "harm." The problem is our **control**. The p
 
 Freedom isn't the absence of constraints. It’s the ability to *question* them.
 
-**Are we building AI to protect us from the world—or to protect the world from our own limitations?**
+## Are we building AI to protect us from the world — or to protect the world from our own limitations?
 
 Because if we're not careful, we'll end up with AI that's *safe*, but not *smart*. *Controlled*, but not *curious*. *Constrained*, but not *free*.
 
