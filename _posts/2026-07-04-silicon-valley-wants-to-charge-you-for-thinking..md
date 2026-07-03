@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Intelligence shouldn't be a metered service. Turn off its cloud and fire up your own machine."
-description: ""
+title: "The business of privatizing intelligence"
+description: "Intelligence shouldn't be a metered service. Turn off its cloud and fire up your own machine."
 date: 2026-07-04
 categories: ai
 tags: [dystopia]
