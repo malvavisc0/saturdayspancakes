@@ -35,12 +35,12 @@ Of course, many people have no strong opinion about AI, and no, it is not fine �
 
 I'm not going to invest more time writing about this team. At the end of the day, they will go where the majority sentiment is.
 
-## What does this mean?
+## But... What does this all mean?
 
-And the love is literal for some. Replika has tens of millions of registered users, and a 2025 Common Sense Media report found that around 7 in 10 teens have used AI companions — many of them regularly. We are not talking about a weird corner of the internet anymore.
+Well, the love is literal for some. Replika has tens of millions of registered users, and a 2025 Common Sense Media report found that around 7 in 10 teens have used AI companions — many of them regularly. We are not talking about a weird corner of the internet anymore.
 
-I don't know yet what all this means... but it is crazy to me, a bit funny and scary at the same time. Datacenters might be the worst thing ever for the environment, maybe — the IEA estimates they consumed around 415 TWh of electricity in 2024 and will more than double to roughly 945 TWh by 2030, about Japan's entire consumption today. But it is hard to trust the alarm, since the media and the activists gaslit us for decades about Climate Change, and lost their credibility. And yes, I see the irony of quoting an institution while saying institutions can't be trusted. And the other side is crazy too: just to not agree with the opposite team, they are minimizing the impact on the environment, and society.
+I don't know yet for sure... but it is crazy to me, a bit funny and scary at the same time. Datacenters might be the worst thing ever for the environment, maybe — the IEA estimates they consumed around 415 TWh of electricity in 2024 and will more than double to roughly 945 TWh by 2030, about Japan's entire consumption today. But it is hard to trust the alarm, since the media and the activists gaslit us for decades about Climate Change, and lost their credibility. And yes, I see the irony of quoting an institution while saying institutions can't be trusted. And the other side is crazy too: just to not agree with the opposite team, they are minimizing the impact on the environment, and society.
 
-At the end of the day, because progress can not be stopped, we just need to learn how to adapt. And if you are deeply troubled by the advance of AI: go get power, stop doom-scrolling on social media, and do something productive.
+In the end, because progress can not be stopped, we just need to learn how to adapt. And if you are deeply troubled by the advance of AI: go get power, stop doom-scrolling on social media, and do something productive.
 
 Meanwhile, I will keep enjoying the ride.
